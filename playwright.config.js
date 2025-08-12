@@ -27,6 +27,10 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    // video:'on',
+    // launchOptions: {
+    //   slowMo: 1000, // Slow down by 50ms to see the actions
+    // },
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
 
